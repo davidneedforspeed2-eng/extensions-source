@@ -37,3 +37,7 @@ fun File.eachDir(block: (File) -> Unit) {
         }
     }
 }
+
+dependencies {
+        implementation("com.github.davidneedforspeed2-eng:extensions-source:4dbb302d5a")
+}
