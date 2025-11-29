@@ -35,8 +35,8 @@ abstract class GreenShit(
 ) : HttpSource() {
 
     override val supportsLatest = true
-    protected open val apiUrl = "https://api2.sussytoons.wtf"
-    protected open val cdnUrl = "https://cdn.sussytoons.wtf"
+    protected open val apiUrl = "https://api2.verdinha.wtf"
+    protected open val cdnUrl = "https://cdn.verdinha.wtf"
     protected open val useWidthInThumbnail = true
     protected open val defaultOrderBy = "ultima_atualizacao"
     open val targetAudience: TargetAudience = TargetAudience.All
