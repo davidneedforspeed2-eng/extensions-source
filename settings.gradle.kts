@@ -38,6 +38,14 @@ fun File.eachDir(block: (File) -> Unit) {
     }
 }
 
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        mavenCentral()
+        maven { url = uri("https://jitpack.io") }
+    }
+}
+
 dependencies {
         implementation("com.github.davidneedforspeed2-eng:extensions-source:4dbb302d5a")
 }
